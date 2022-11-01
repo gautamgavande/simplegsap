@@ -1,0 +1,64 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #main {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #nav {
+        height: 10%;
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #f {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        font-size: 100px;
+        line-height: 84px;
+    }
+    
+    #img {
+        position: absolute;
+        top: 50%;
+        height: 30%;
+        width: 25%;
+        left: 5%;
+        background-image: url(https://media.istockphoto.com/photos/smiling-indian-business-man-working-on-laptop-at-home-office-young-picture-id1307615661?s=612x612);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #b {
+        position: absolute;
+        left: 65%;
+        top: 89%;
+        font-size: 100px;
+    }
+    
+    #page1 {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: -200%;
+    }
+    
+    #t {
+        padding: 20px;
+        color: white;
+    }
